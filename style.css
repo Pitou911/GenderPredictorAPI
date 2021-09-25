@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+
+*,
+*::after,
+*::before,
+body {
+  font-family: "Gemunu Libre", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8f6ef;
+  color: #112031;
+}
+
+.container {
+  width: 60%;
+  margin: 5rem auto 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.container p {
+  font-size: 1.1rem;
+}
+
+.container input {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 80%;
+  padding: 15px;
+}
+
+.container button {
+  background-color: #b8dfd8;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-style: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 6rem;
+}
+.gender {
+  font-size: 5rem;
+}
+
+.loader {
+  margin: 0 auto;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #0d0d0e;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
